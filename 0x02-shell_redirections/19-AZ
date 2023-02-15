@@ -1,5 +1,2 @@
 #!/bin/bash
-# Replace all occurrences of A with Z
-sed 's/A/Z/g' filename.txt > newfile.txt
-# Replace all occurrences of c with e
-sed -i 's/c/e/g' newfile.txt
+grep -o '.*' filename.txt | sed 's/A/Z/g; s/c/e/g'
