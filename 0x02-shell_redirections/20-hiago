@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "This is a test of the script" | sed 's/[cC]//g'
+echo "input" | tr -d "cC"
