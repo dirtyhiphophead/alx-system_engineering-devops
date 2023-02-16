@@ -1,6 +1,2 @@
 #!/bin/bash
-# Count the number of directories and sub-directories
-count=$(find . -mindepth 1 -type d -not -path '*/\.*' | wc -l)
-# Print the result
-echo "Number of directories and sub-directories: $count"
-
+find . -type d ! -path . -print | wc -1
