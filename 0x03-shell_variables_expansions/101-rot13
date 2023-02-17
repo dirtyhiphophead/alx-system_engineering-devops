@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "Hello, World!" | tr 'a-zA-Z' 'n-za-mN-ZA-M' | tr 'n-za-mN-ZA-M' 'a-zA-Z'
+echo "hello, world!" | tr 'A-Za-z' 'N-ZA-Mn-za-m' | tr 'N-ZA-Mn-za-m' 'A-Za-z'
